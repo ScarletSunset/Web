@@ -70,7 +70,7 @@ hr {
 }
 
 .navbar-inverse .navbar-nav>.active>a {
-  background: #ff7878
+  background: #ff7878;
 }
 
 .navbar-inverse .navbar-brand {
@@ -578,6 +578,10 @@ height: 200px;
 .sd{
   height: 300px;
   background-color:black ;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+
 }
 .sketchfab-embed-wrapper{
   margin-top: 20px;
@@ -585,9 +589,7 @@ height: 200px;
 .stumb{
   margin-top: 20px;
 }
-.pricing-edition{
-  border:2px solid gray;
-}
+
 .wqs{
 
 width: 20px;
@@ -665,6 +667,7 @@ i{
 .plm{
   width: 160px;
   height: 60px;
+  margin-top: 0px;
 }
 
 .video__media{
@@ -782,6 +785,15 @@ padding-bottom: 56.25%;
 }
 .prev{
   position: absolute;
-  top:80px;
+  top:90px;
   left: 10px;
+}
+.navbar{
+  background:#323232;
+  border: 0px solid;
+}
+.qwqe{
+
+width: 200px;
+height: 200px;
 }
