@@ -65,7 +65,7 @@ hr {
 }
 
 .navbar-inverse {
-  background: #black;
+  background: black;
   border-color: black;
 }
 
@@ -154,7 +154,7 @@ hr {
 #dg {
      
   margin-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
   text-align: center;
 }
 
@@ -295,7 +295,7 @@ hr {
 }
 
 .pricing-option {
-  padding-bottom: 40px;
+  padding-bottom: 5px;
 }
 
 .pricing-option .pricing-top {
@@ -577,7 +577,7 @@ height: 200px;
 }
 .sd{
   height: 300px;
-  background-color: black;
+  background-color:black ;
 }
 .sketchfab-embed-wrapper{
   margin-top: 20px;
@@ -590,19 +590,17 @@ height: 200px;
 }
 .wqs{
 
-  border:2px solid green;
 width: 20px;
 height: 50px;
 }
 
 .uiop,.uio,.ui,.iu{
 outline: none;
-  border-radius: 10px;
+  
   color: #f85c37;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
-
-    border-radius: 20px;
+;
   text-decoration: none;
   outline: 0;
 
@@ -610,12 +608,11 @@ outline: none;
 }
 .xc,.we,.wer,.wert{
 outline: none;
-  border-radius:30px;
+
   color: #f85c37;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
 
-    border-radius: 20px;
   text-decoration: none;
   outline: 0;
 
@@ -625,12 +622,11 @@ outline: none;
 }
 .fdsa,.fds,.fd,.fdas{
 outline: none;
-  border-radius:30px;
+
   color: #f85c37;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
 
-    border-radius: 20px;
   text-decoration: none;
   outline: 0;
 
@@ -640,22 +636,17 @@ outline: none;
 }
 .zxcv,.zxc,.zxvc,.vc{
 outline: none;
-  border-radius:30px;
+ 
   color: #f85c37;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
 
-    border-radius: 20px;
   text-decoration: none;
   outline: 0;
 
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-.bhn{
-  margin-left: 8px;
- color: black;
-outline-style: none;
-}
+
 .dow{
   margin-right: 5px;
 }
@@ -663,6 +654,134 @@ outline-style: none;
   margin-top: 14px;
 }
 .skachat{
-  border:2px solid green;
+  border:3px solid green;
+  border-radius: 4px;
   width: 150px;
+  height: 50px;
+}
+i{
+  margin-top: 8px;
+}
+.plm{
+  width: 160px;
+  height: 60px;
+}
+
+.video__media{
+  position: absolute;
+  left: -80px;
+  top: 0px;
+  width: 300px;
+  height: 80px;
+}
+.qwqwq{
+  border:5px solid gray;
+}
+.navbar-inverse {
+border: 2px solid gray;
+}
+.video {
+position: relative;
+z-index: 1;
+padding-bottom: 56.25%;
+}
+* {box-sizing:border-box}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 101.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.prev{
+  position: absolute;
+  top:80px;
+  left: 10px;
 }
