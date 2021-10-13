@@ -231,6 +231,7 @@ hr {
 /****** SECTIONS *****/
 
 .w {
+  /*border:1px solid;*/
   padding-top: 10px;
     padding-bottom: -20px;
 }
@@ -552,8 +553,7 @@ height: 200px;
 }
 .awq
 {
-    border-radius: 20px;
-        border:2px solid;
+  
 }
 .pol
 {
@@ -638,7 +638,7 @@ outline: none;
 }
 .zxcv,.zxc,.zxvc,.vc{
 outline: none;
- 
+  
   color: #f85c37;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -667,7 +667,8 @@ i{
 .plm{
   width: 160px;
   height: 60px;
-  margin-top: 0px;
+  margin-top: -6px;
+  margin-left: -8px;
 }
 
 .video__media{
@@ -796,4 +797,36 @@ padding-bottom: 56.25%;
 
 width: 200px;
 height: 200px;
+}
+#m {
+  border-top:10px solid #ff7878; 
+  background: url(../img/programming1.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 400px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.qwqe{
+  width: 299px;
+    transition: 1s; /* Время эффекта */
+    border: 2px solid;
+    border-radius: 10px;
+   }
+   .qwqe:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+}
+.col-lg-2{
+   margin-left: -5px;
 }
