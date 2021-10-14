@@ -81,3 +81,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+$('.back-to-top').click(function () {
+    $('body,html').animate({ scrollTop: 0}, 800); // 800 - Скорость анимации
+});
