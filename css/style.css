@@ -818,7 +818,8 @@ height: 200px;
   background-size: cover;
 }
 .qwqe{
-  width: 299px;
+  width: 250px;
+  
     transition: 1s; /* Время эффекта */
     border: 2px solid;
     border-radius: 10px;
